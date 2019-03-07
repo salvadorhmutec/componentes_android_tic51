@@ -2,7 +2,7 @@
 
 Aplicación desarrollada en AndroidStudio 3.3.1 con una desmotración del uso de diferentes componentes de UI
 
-## Lista de componentes
+## Lista de componentes y Desarrolladores
 
 1. ScrollView y HorizontalScrollView
 2. EditText
