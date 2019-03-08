@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity android:name=".Activity_Radio_Button"></activity>
+=======
         <activity android:name=".Activity_Video_View"></activity>
+>>>>>>> d59b1e7ff2874cf68aef36e0c0bd2a4ea5792728
         <activity android:name=".activity_image_button" />
         <activity android:name=".Activity_edittext" />
         <activity
