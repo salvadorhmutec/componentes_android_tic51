@@ -23,4 +23,4 @@ Aplicación desarrollada en AndroidStudio 3.3.1 con una desmotración del uso de
 17. Spinner - Iván Hernández Osornio
 18. MapView - Estefania García Resendiz
 19. SeekBar - Pedro Hernández Luqueño
-20. CardView -
+20. CardView - Diego Bolaños Pardo
