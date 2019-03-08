@@ -5,9 +5,13 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_scroll_view"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="ScrollView" />
+        <item
+            android:id="@+id/nav_edit_text"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="TabLayout" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
