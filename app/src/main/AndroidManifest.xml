@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity_Web_View"></activity>
+        <activity android:name=".Activity_Web_View" />
         <activity android:name=".Activity_Floating_Button" />
         <activity android:name=".Activity_Switch" />
         <activity android:name=".Activity_Toggle_Button" />
@@ -32,6 +32,7 @@
         </activity>
         <activity android:name=".Activity_Scroll_View" />
         <activity android:name=".Activity_Button" />
+        <activity android:name=".Activity_Rating_Bar"></activity>
     </application>
 
 </manifest>
