@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity_Toggle_Button"></activity>
+        <activity android:name=".Activity_Switch"></activity>
+        <activity android:name=".Activity_Toggle_Button" />
         <activity android:name=".Activity_Check_Box" />
         <activity android:name=".Activity_Radio_Button" />
         <activity android:name=".Activity_Video_View" />
