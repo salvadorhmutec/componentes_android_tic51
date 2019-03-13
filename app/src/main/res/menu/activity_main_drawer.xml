@@ -7,95 +7,95 @@
         <item
             android:id="@+id/nav_button"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Button" />
+            android:title="@string/button" />
         <item
             android:id="@+id/nav_calendar_view"
             android:icon="@drawable/ic_menu_manage"
-            android:title="CalendarView" />
+            android:title="@string/calendarview" />
         <item
             android:id="@+id/nav_card_view"
             android:icon="@drawable/ic_menu_manage"
-            android:title="CardView" />
+            android:title="@string/cardview" />
         <item
             android:id="@+id/nav_check_box"
             android:icon="@drawable/ic_menu_manage"
-            android:title="CheckBox" />
+            android:title="@string/checkbox" />
         <item
             android:id="@+id/nav_edit_text"
             android:icon="@drawable/ic_menu_manage"
-            android:title="EditText" />
+            android:title="@string/edittext" />
         <item
             android:id="@+id/nav_floating_button"
             android:icon="@drawable/ic_menu_manage"
-            android:title="FloatingButton" />
+            android:title="@string/floatingbutton" />
         <item
             android:id="@+id/nav_image_button"
             android:icon="@drawable/ic_menu_manage"
-            android:title="ImageButton" />
+            android:title="@string/imagebutton" />
         <item
             android:id="@+id/nav_image_view"
             android:icon="@drawable/ic_menu_manage"
-            android:title="ImageView" />
+            android:title="@string/imageview" />
         <item
             android:id="@+id/nav_map_view"
             android:icon="@drawable/ic_menu_manage"
-            android:title="MapView" />
+            android:title="@string/mapview" />
         <item
             android:id="@+id/nav_progress_bar"
             android:icon="@drawable/ic_menu_manage"
-            android:title="ProgresssBar" />
+            android:title="@string/progresssbar" />
         <item
             android:id="@+id/nav_radio_button"
             android:icon="@drawable/ic_menu_manage"
-            android:title="RadioButton" />
+            android:title="@string/radiobutton" />
         <item
             android:id="@+id/nav_rating_bar"
             android:icon="@drawable/ic_menu_manage"
-            android:title="RatingBar" />
+            android:title="@string/ratingbar" />
         <item
             android:id="@+id/nav_scroll_view"
             android:icon="@drawable/ic_menu_manage"
-            android:title="ScrollView" />
+            android:title="@string/scrollview" />
         <item
             android:id="@+id/nav_seek_bar"
             android:icon="@drawable/ic_menu_manage"
-            android:title="SeekBar" />
+            android:title="@string/seekbar" />
         <item
             android:id="@+id/nav_spinner"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Spinner" />
+            android:title="@string/spinner" />
         <item
             android:id="@+id/nav_switch"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Switch" />
+            android:title="@string/switchcomponent" />
         <item
             android:id="@+id/nav_tab_layout"
             android:icon="@drawable/ic_menu_manage"
-            android:title="TabLayout" />
+            android:title="@string/tablayout" />
         <item
             android:id="@+id/nav_toggle_button"
             android:icon="@drawable/ic_menu_manage"
-            android:title="ToggleButton" />
+            android:title="@string/togglebutton" />
         <item
             android:id="@+id/nav_video_view"
             android:icon="@drawable/ic_menu_manage"
-            android:title="VideoView" />
+            android:title="@string/videoview" />
         <item
             android:id="@+id/nav_web_view"
             android:icon="@drawable/ic_menu_manage"
-            android:title="WebView" />
+            android:title="@string/webview" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/share" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="@string/send" />
         </menu>
     </item>
 

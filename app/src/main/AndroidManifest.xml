@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_cardview"></activity>
+        <activity android:name=".activity_cardview" />
         <activity android:name=".Activity_Seek_Bar" />
         <activity android:name=".activity_spinner" />
         <activity android:name=".activity_progress_bar" />
@@ -25,6 +25,12 @@
         <activity android:name=".Activity_Video_View" />
         <activity android:name=".activity_image_button" />
         <activity android:name=".Activity_edittext" />
+        <activity android:name=".Activity_Scroll_View" />
+        <activity android:name=".Activity_Button" />
+        <activity android:name=".Activity_Rating_Bar" />
+        <activity android:name=".Activity_Map_View" />
+        <activity android:name=".Activity_Calendar_View" />
+        <activity android:name=".Activity_Image_View" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -35,10 +41,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity_Scroll_View" />
-        <activity android:name=".Activity_Button" />
-        <activity android:name=".Activity_Rating_Bar" />
-        <activity android:name=".Activity_Map_View" />
+
     </application>
 
 </manifest>
