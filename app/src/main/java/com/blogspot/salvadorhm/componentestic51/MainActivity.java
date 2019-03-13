@@ -82,15 +82,66 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_scroll_view) {
-            Intent intent = new Intent(getApplicationContext(),Activity_Scroll_View.class);
+        if (id == R.id.nav_button) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Button.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_calendar_view) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Calendar_View.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_card_view) {
+            Intent intent = new Intent(getApplicationContext(),activity_cardview.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_check_box) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Check_Box.class);
             startActivity(intent);
         } else if (id == R.id.nav_edit_text) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
+            Intent intent = new Intent(getApplicationContext(),Activity_edittext.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_floating_button) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Floating_Button.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_image_button) {
+            Intent intent = new Intent(getApplicationContext(),activity_image_button.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_image_view) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Image_View.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_map_view) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Map_View.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_progress_bar) {
+            Intent intent = new Intent(getApplicationContext(),activity_progress_bar.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_radio_button) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Radio_Button.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_rating_bar) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Rating_Bar.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_scroll_view) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Scroll_View.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_seek_bar) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Seek_Bar.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_spinner) {
+            Intent intent = new Intent(getApplicationContext(), activity_spinner.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_switch) {
+            Intent intent = new Intent(getApplicationContext(), Activity_Switch.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_tab_layout) {
+            Intent intent = new Intent(getApplicationContext(), Activity_Tab_Layout.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_toggle_button) {
+            Intent intent = new Intent(getApplicationContext(), Activity_Toggle_Button.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_video_view) {
+            Intent intent = new Intent(getApplicationContext(), Activity_Video_View.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_web_view) {
+            Intent intent = new Intent(getApplicationContext(),Activity_Web_View.class);
+            startActivity(intent);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

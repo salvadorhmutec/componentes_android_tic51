@@ -5,25 +5,85 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_scroll_view"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="ScrollView" />
+            android:id="@+id/nav_button"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Button" />
+        <item
+            android:id="@+id/nav_calendar_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="CalendarView" />
+        <item
+            android:id="@+id/nav_card_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="CardView" />
+        <item
+            android:id="@+id/nav_check_box"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="CheckBox" />
         <item
             android:id="@+id/nav_edit_text"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="EditText" />
+        <item
+            android:id="@+id/nav_floating_button"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="FloatingButton" />
+        <item
+            android:id="@+id/nav_image_button"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ImageButton" />
+        <item
+            android:id="@+id/nav_image_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ImageView" />
+        <item
+            android:id="@+id/nav_map_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="MapView" />
+        <item
+            android:id="@+id/nav_progress_bar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ProgresssBar" />
+        <item
+            android:id="@+id/nav_radio_button"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="RadioButton" />
+        <item
+            android:id="@+id/nav_rating_bar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="RatingBar" />
+        <item
+            android:id="@+id/nav_scroll_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ScrollView" />
+        <item
+            android:id="@+id/nav_seek_bar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SeekBar" />
+        <item
+            android:id="@+id/nav_spinner"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Spinner" />
+        <item
+            android:id="@+id/nav_switch"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Switch" />
+        <item
+            android:id="@+id/nav_tab_layout"
+            android:icon="@drawable/ic_menu_manage"
             android:title="TabLayout" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_toggle_button"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="ToggleButton" />
+        <item
+            android:id="@+id/nav_video_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="VideoView" />
+        <item
+            android:id="@+id/nav_web_view"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="WebView" />
     </group>
 
     <item android:title="Communicate">
