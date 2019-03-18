@@ -22,6 +22,7 @@
     <string name="switchcomponent">Switch</string>
     <string name="scrollview">ScrollView</string>
     <string name="tablayout">TabLayout</string>
+    <string name="togglebutton">ToggleButton</string>
     <string name="text1titulo">ToggleButton (activar/desactivar) Botón de activación</string>
     <string name="text2Parra">En Android, ToggleButton se usa para mostrar el estado de un botón marcado sin marcar</string>
     <string name="estado">Estado: </string>
