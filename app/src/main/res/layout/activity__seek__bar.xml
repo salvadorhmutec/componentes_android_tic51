@@ -6,16 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".Activity_Seek_Bar">
 
+    <SeekBar
+        android:id="@+id/seekbarId"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:max="100"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo" />
+
     <TextView
+        android:id="@+id/tv_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Escala de 0 a 100"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/tv_nivel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/seekbar"
+        android:layout_marginBottom="8dp"
+        android:text="Un SeekBar es una extensión de ProgressBar que agrega un pulgar que se puede arrastrar. El usuario puede tocar el pulgar y arrastrar hacia la izquierda o hacia la derecha para establecer el nivel de progreso actual o usar las teclas de flecha. No se recomienda colocar widgets enfocados a la izquierda o derecha de un SeekBar."
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toBottomOf="@+id/seekbarId"
+        app:layout_constraintVertical_bias="0.059" />
 </android.support.constraint.ConstraintLayout>
