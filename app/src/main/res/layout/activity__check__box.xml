@@ -22,7 +22,7 @@
             android:layout_gravity="center_horizontal"
             android:text="Selecciona tu Buscador favorito"
             android:textAlignment="center"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/color"
             android:textSize="24sp" />
 
         <CheckBox
@@ -54,7 +54,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:text="Aceptar"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/color"
             android:textSize="18sp" />
 
         <TextView
