@@ -26,10 +26,16 @@
     <string name="scrollview">ScrollView</string>
     <string name="tablayout">TabLayout</string>
     <string name="togglebutton">ToggleButton</string>
+    <string name="text1titulo">ToggleButton (activar/desactivar) Botón de activación</string>
+    <string name="text2Parra">En Android, ToggleButton se usa para mostrar el estado de un botón marcado sin marcar</string>
+    <string name="estado">Estado: </string>
     <string name="webview">WebView</string>
     <string name="videoview">VideoView</string>
     <string name="spinner">Spinner</string>
     <string name="communicate">Communicate</string>
     <string name="share">Share</string>
     <string name="send">Send</string>
+    <string name="desc_radio">Los RadioButtons son excelentes para proporcionar exclusion entre un conjunto de opciones. Son ideales cuando se desea mostrar todas las opciones.</string>
+    <string name="desc_radiog">RadioGroup agrupa un conjunto de RadioButton y permite la selecccion de un solo RadioButton</string>
+    <string name="title_activity_maps1">Map</string>
 </resources>

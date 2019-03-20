@@ -1,21 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".Activity_Radio_Button">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/radiobutton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:padding="10dp"
+        android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/desc_radio"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/rB_nd_ns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:enabled="false"
+                android:padding="10dp"
+                android:text="No disponible y no seleccionado"
+                android:textSize="16sp"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="109dp" />
+
+            <RadioButton
+                android:id="@+id/rB_nd_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:enabled="false"
+                android:padding="10dp"
+                android:text="No disponible y seleccionado"
+                android:textSize="16sp"
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="109dp" />
+        </RadioGroup>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_radiogroup"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="serif"
+            android:padding="15dp"
+            android:text="@string/desc_radiog"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ejemplo_RadioG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="RadioGroup del conjunto colores"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:id="@+id/rg_colores"
+            android:paddingHorizontal="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="212dp">
+
+            <RadioButton
+                android:id="@+id/rb_azul"
+                android:onClick="RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FF064393"
+                android:checked="true"
+                android:padding="10dp"
+                android:text="Color Azul"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="98dp"
+                tools:layout_editor_absoluteY="140dp" />
+
+            <RadioButton
+                android:id="@+id/rb_verde"
+                android:onClick="RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FF05AF1C"
+                android:checked="false"
+                android:padding="10dp"
+                android:text="Color Verde"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="98dp"
+                tools:layout_editor_absoluteY="200dp" />
+
+            <RadioButton
+                android:id="@+id/rb_rojo"
+                android:onClick="RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFED1245"
+                android:checked="false"
+                android:padding="10dp"
+                android:text="Color_Rojo"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="105dp"
+                tools:layout_editor_absoluteY="288dp" />
+
+        </RadioGroup>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>
