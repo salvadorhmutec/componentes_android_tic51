@@ -8,7 +8,10 @@
     <string name="action_settings">Settings</string>
     <string name="button">Button</string>
     <string name="calendarview">CalendarView</string>
-    <string name="cardview">CardView</string>
+    <string name="cardview">Card View</string>
+    <string name="cardview1">Batman</string>
+    <string name="cardview2">Superman</string>
+    <string name="cardview3">Linterna Verde</string>
     <string name="checkbox">CheckBox</string>
     <string name="edittext">EditText</string>
     <string name="floatingbutton">FloatingButton</string>
