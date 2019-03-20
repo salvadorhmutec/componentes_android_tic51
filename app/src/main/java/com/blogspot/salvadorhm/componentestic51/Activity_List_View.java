@@ -7,7 +7,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class Activity_Tab_Layout extends Activity {
+public class Activity_List_View extends Activity {
 
     private String lenguajeProgramacion[]=new String[]{"Java","PHP","Python","JavaScript","Ruby","C",
             "Go","Perl","Pascal"};
@@ -29,7 +29,7 @@ public class Activity_Tab_Layout extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity__tab__layout);
+        setContentView(R.layout.activity_List_View);
 
         LenguajeListAdapter adapter=new LenguajeListAdapter(this,lenguajeProgramacion,imgid);
         lista=(ListView)findViewById(R.id.mi_lista);

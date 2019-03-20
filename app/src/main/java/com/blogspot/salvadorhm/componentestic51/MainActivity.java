@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), Activity_Switch.class);
             startActivity(intent);
         }else if (id == R.id.nav_tab_layout) {
-            Intent intent = new Intent(getApplicationContext(), Activity_Tab_Layout.class);
+            Intent intent = new Intent(getApplicationContext(), Activity_List_View.class);
             startActivity(intent);
         }else if (id == R.id.nav_toggle_button) {
             Intent intent = new Intent(getApplicationContext(), Activity_Toggle_Button.class);
