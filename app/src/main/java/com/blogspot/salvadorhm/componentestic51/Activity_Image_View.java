@@ -25,12 +25,12 @@ public class Activity_Image_View extends Activity {
 
         image = (ImageView) findViewById(R.id.imageView1);
 
-        button = (Button) findViewById(R.id.btnCambiarImagen);
+        button = (Button) findViewById(R.id.CambiarImagen);
         button.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                image.setImageResource(R.drawable.imageView10);
+                image.setImageResource(R.drawable.imageView5);
             }
 
         });

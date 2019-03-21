@@ -9,18 +9,20 @@ android:orientation="vertical" >
         android:id="@+id/CambiarImagen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CambiarImagen" />
+        android:text="@string/cambiarimagen" />
 
     <ImageView
         android:id="@+id/imageView1"
-        app:srcCompat="@drawable/ut"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ut"
+        android:contentDescription="@string/todo" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ut" />
+        app:srcCompat="@drawable/utec"
+        android:contentDescription="@string/todo" />
 
 </LinearLayout>
