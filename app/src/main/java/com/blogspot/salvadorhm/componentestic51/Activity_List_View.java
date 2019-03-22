@@ -29,7 +29,7 @@ public class Activity_List_View extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_List_View);
+        setContentView(R.layout.activity_list_view);
 
         LenguajeListAdapter adapter=new LenguajeListAdapter(this,lenguajeProgramacion,imgid);
         lista=(ListView)findViewById(R.id.mi_lista);

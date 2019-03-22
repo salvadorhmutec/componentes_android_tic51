@@ -71,7 +71,7 @@
         <item
             android:id="@+id/nav_tab_layout"
             android:icon="@drawable/ic_menu_manage"
-            android:title="@string/tablayout" />
+            android:title="@string/listview" />
         <item
             android:id="@+id/nav_toggle_button"
             android:icon="@drawable/ic_menu_manage"
